@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 2px;
+}
+.container{
+	width: 30vw;
+	height: max-content;
+	/*background-color:#bdd6fc;*/
+	text-align: center;
+	margin: 50px auto;
+}
+.row{
+	display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 5px;
+		/*margin: 5px;*/
+}
+input[type=text]{
+  width: 5vw;
+  height: 10vh;
+  margin-left: 5px;
+  text-align: center;
+  font-family: 'Clash Grotesk', sans-serif;
+  font-size: 45px;
+  text-transform: uppercase;
+  border: 0px;
+  outline: none;
+  border-radius: 4px;
+  color: #1a133d;
+  caret-color: #bdd6fc;
+  background-color:#bdd6fc;
+  box-sizing: border-box;	
+}
+input[type=text]:focus {
+  border: 5px solid #49DDBF;
+  /*width: 10vw;*/
+  /*outline: 2px;	*/
+}
+input[type=text]:disabled {
+  border:0px;
+  /*width: 10vw;*/
+  /*outline: 2px;	*/
+}
